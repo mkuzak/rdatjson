@@ -1,8 +1,11 @@
 Package: rdatjson
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: "First Last <first.last@example.com> [aut, cre]"
-Description: What the package does (one paragraph)
+Title: R client for dat REST API
+Version: 0.0.9000
+Authors@R: person("Mateusz", "Kuzak", email = "mateusz.kuzak@gmail.com",
+  role = c("aut", "cre"))
+BugReports: https://github.com/mkuzak/rdatjson/issues
+Description: Provides R interface to dat server via REST API.
 Depends: R (>= 3.1.2)
-License: What license is it under?
+License: Apache License
 LazyData: true
+Imports: jsonlite (>= 0.9.13)
